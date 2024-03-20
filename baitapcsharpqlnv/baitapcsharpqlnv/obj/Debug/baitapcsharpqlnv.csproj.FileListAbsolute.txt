@@ -1,0 +1,2 @@
+C:\Users\ADMIN\Desktop\baitapC#\baitap_QLNV\baitap_QLNV\baitapcsharp\baitapcsharpqlnv\baitapcsharpqlnv\obj\Debug\baitapcsharpqlnv.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\baitapC#\baitap_QLNV\baitap_QLNV\baitapcsharp\baitapcsharpqlnv\baitapcsharpqlnv\obj\Debug\baitapcsharpqlnv.csproj.CoreCompileInputs.cache

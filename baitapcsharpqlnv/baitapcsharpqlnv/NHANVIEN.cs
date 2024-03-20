@@ -9,7 +9,7 @@ namespace baitapcsharpqlnv
     class NHANVIEN
     {
         private static int demnv = 1;// ma nv ban dau = nv{demnv}
-        private String manv { set; private get ; }
+        private String manv { set;  get ; }
         private String hoten { set; get; }
         private DateTime namsinh { set; get; }
         private String gioitinh { set; get; }
@@ -40,7 +40,7 @@ namespace baitapcsharpqlnv
         public void Nhap()
         {
             Console.WriteLine("\nDIEN THONG TIN NHAN VIEN C#");
-            Console.Write("MANV(auto) : "+this.manv);
+            Console.Write("MANV(auto) : " + this.manv);
             Console.Write("______________________\nNhap ho va ten :  ");
             this.hoten = Convert.ToString(Console.ReadLine());
             Console.Write("______________________\nNhap ngay sinh (mm/dd/yyyy");
@@ -56,26 +56,20 @@ namespace baitapcsharpqlnv
         public void Xuat()
         {
             Console.Write("*******************   THONG TIN   *********************");
-            Console.Write("**  MA NHAN VIEN : "+ this.manv);
-            Console.Write("**  TEN NHAN VIEN : "+ this.hoten);
-            Console.Write("**  NGAY SINH : "+ this.namsinh.ToString("dd/MM/yyyy"));
-            Console.Write("**  CMND : "+ this.cmnd);
-            Console.Write("**  NGAY VAO CO QUAN : "+ this.ngayvaocq.ToString("dd/MM/yyyy"));
-            Console.Write("**  LUONG CO BAN : "+ luongcoban);
+            Console.Write("**  MA NHAN VIEN : " + this.manv);
+            Console.Write("**  TEN NHAN VIEN : " + this.hoten);
+            Console.Write("**  NGAY SINH : " + this.namsinh.ToString("dd/MM/yyyy"));
+            Console.Write("**  CMND : " + this.cmnd);
+            Console.Write("**  NGAY VAO CO QUAN : " + this.ngayvaocq.ToString("dd/MM/yyyy"));
+            Console.Write("**  LUONG CO BAN : " + luongcoban);
             Console.Write("**  TONG LUONG");
             Console.Write("*******************************************************");
         }
 
-        public void thamNiem()
+        public int thamNiem()
         {
-
+            return DateTime.Today.Year - this.ngayvaocq.Year;
         }
-        public void phuCap()
-        {
-
-        }
-        public void 
-
 
 
     }

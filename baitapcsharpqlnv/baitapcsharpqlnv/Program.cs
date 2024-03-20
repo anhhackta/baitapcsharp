@@ -10,6 +10,26 @@ namespace baitapcsharpqlnv
     {
         static void Main(string[] args)
         {
+            List<NHANVIEN> dsnv = new List<NHANVIEN>();
+            while (true)
+            {
+                Console.WriteLine("1 nv bien che\n2 nv hop dong\n0thoat");
+                int choice = int.Parse(Console.ReadLine());
+                if (choice == 0)
+                    break;
+                NHANVIEN nv;
+                if (choice == 1)
+                {
+                    nv = new nhanvienbienche();
+                }
+                else
+                {
+                    nv = new nhanvienhopdong();
+                }
+                nv.Nhap();
+                dsnv.Add(nv);
+                Console.ReadKey();
+            }
         }
     }
 }

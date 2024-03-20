@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace baitapcsharpqlnv
 {
-    internal class quanlynhanvien
+    class quanlynhanvien
     {
+        Dictionary<String, NHANVIEN> dsnhanvien;
+
+        public quanlynhanvien()
+        {
+            dsnhanvien = new Dictionary<String, NHANVIEN>();
+        }
+        
     }
 }
