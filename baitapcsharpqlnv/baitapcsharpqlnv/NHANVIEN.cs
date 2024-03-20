@@ -8,7 +8,13 @@ namespace baitapcsharpqlnv
 {
     class NHANVIEN
     {
-        private 
+        private String manv { set; get; }
+        private String hoten { set; get; }
+        private DateTime namsinh { set; get; }
+        private String gioitinh { set; get; }
+        private String cmnd { set; get; }
+        private DateTime ngayvaocq { set; get; }
+
 
     }
 }
