@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "baitapcsharpqlnv", "baitapcsharpqlnv\baitapcsharpqlnv.csproj", "{0040CEE8-A324-4ED7-9A37-14CC392422EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0040CEE8-A324-4ED7-9A37-14CC392422EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0040CEE8-A324-4ED7-9A37-14CC392422EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0040CEE8-A324-4ED7-9A37-14CC392422EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0040CEE8-A324-4ED7-9A37-14CC392422EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68B064E0-0C75-4763-BF5D-8BC1082397EC}
+	EndGlobalSection
+EndGlobal
