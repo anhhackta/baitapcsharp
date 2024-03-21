@@ -22,23 +22,24 @@ namespace baitapcsharpqlnv
         public override void Nhap()
         {
             base.Nhap();
-            Console.WriteLine("Nhap he so  luong : ");
+            Console.Write("______________________\nNhap he so  luong : ");
             this.hesoluong = double.Parse(Console.ReadLine());
         }
         public double Luong()
         {
-            return this.hesoluong * luongcoban + this.phuCap();
+            return (this.hesoluong * luongcoban) + this.phuCap();
         }
 
         public double phuCap()
         {
-            return (base.thamNiem() >= 10) ? 500000 : 200000;
+            return (base.thamNiem() >= 10) ? ( luongcoban * 0.1 + 500000) : (luongcoban * 0.1 + 200000);
         }
 
         public override void Xuat()
         {
             base.Xuat();
-            Console.Write("Thuoc : Nhan vien bien che");
+            Console.Write("Thuoc : Nhan vien bien che\n");
+            Console.WriteLine("Phu Cap : "+ this.phuCap());
             Console.WriteLine("Luong : "+ this.Luong());
         }
         

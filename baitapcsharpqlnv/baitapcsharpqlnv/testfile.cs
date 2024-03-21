@@ -125,13 +125,15 @@
 //        }
 
 //        // Tính tổng quỹ lương
-//        double totalSalaryFund = employees.Sum(emp => {
+//        double totalSalaryFund = employees.Sum(emp =>
+//        {
 //            if (emp is PermanentEmployee)
 //            {
 //                return ((PermanentEmployee)emp).CalculateSalary();
 //            }
 //            else if (emp is ContractEmployee)
 //            {
+//                a
 //                return ((ContractEmployee)emp).CalculateSalary();
 //            }
 //            return 0;

@@ -62,8 +62,8 @@ namespace baitapcsharpqlnv
             Console.WriteLine("**  NGAY SINH : " + this.namsinh.ToString("dd/MM/yyyy"));
             Console.WriteLine("**  CMND : " + this.cmnd);
             Console.WriteLine("**  NGAY VAO CO QUAN : " + this.ngayvaocq.ToString("dd/MM/yyyy"));
-            Console.WriteLine("** SO NAM LAM VIEC : " + this.thamNiem());
-            Console.WriteLine("**  LUONG CO BAN : " + luongcoban);
+            Console.WriteLine("**  SO NAM LAM VIEC : " + this.thamNiem() + " Nam");
+            Console.WriteLine("**  LUONG CO BAN : " + luongcoban + " Dong");
 
         }
 
