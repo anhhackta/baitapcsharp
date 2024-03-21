@@ -1,2 +1,7 @@
 C:\Users\ADMIN\Desktop\baitapC#\baitap_QLNV\baitap_QLNV\baitapcsharp\baitapcsharpqlnv\baitapcsharpqlnv\obj\Debug\baitapcsharpqlnv.csproj.AssemblyReference.cache
 C:\Users\ADMIN\Desktop\baitapC#\baitap_QLNV\baitap_QLNV\baitapcsharp\baitapcsharpqlnv\baitapcsharpqlnv\obj\Debug\baitapcsharpqlnv.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\baitapC#\baitap_QLNV\baitap_QLNV\baitapcsharp\baitapcsharpqlnv\baitapcsharpqlnv\bin\Debug\baitapcsharpqlnv.exe.config
+C:\Users\ADMIN\Desktop\baitapC#\baitap_QLNV\baitap_QLNV\baitapcsharp\baitapcsharpqlnv\baitapcsharpqlnv\bin\Debug\baitapcsharpqlnv.exe
+C:\Users\ADMIN\Desktop\baitapC#\baitap_QLNV\baitap_QLNV\baitapcsharp\baitapcsharpqlnv\baitapcsharpqlnv\bin\Debug\baitapcsharpqlnv.pdb
+C:\Users\ADMIN\Desktop\baitapC#\baitap_QLNV\baitap_QLNV\baitapcsharp\baitapcsharpqlnv\baitapcsharpqlnv\obj\Debug\baitapcsharpqlnv.exe
+C:\Users\ADMIN\Desktop\baitapC#\baitap_QLNV\baitap_QLNV\baitapcsharp\baitapcsharpqlnv\baitapcsharpqlnv\obj\Debug\baitapcsharpqlnv.pdb

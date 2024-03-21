@@ -14,6 +14,6 @@ namespace baitapcsharpqlnv
         {
             dsnhanvien = new Dictionary<String, NHANVIEN>();
         }
-        
+
     }
 }

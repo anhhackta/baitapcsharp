@@ -11,7 +11,7 @@ namespace baitapcsharpqlnv
 
         private double mucluong { set; get; }
         public nhanvienhopdong() : base() { }
-        public nhanvienhopdong(double mucluong): base(NHANVIEN)
+        public nhanvienhopdong(double mucluong, string manv, string hoten, DateTime namsinh, string gioitinh, string cmnd, DateTime ngayvaocq) : base(manv, hoten, namsinh, gioitinh, cmnd, ngayvaocq)
         {
             this.mucluong = mucluong;
         }
@@ -19,7 +19,7 @@ namespace baitapcsharpqlnv
         public override void Nhap()
         {
             base.Nhap();
-            Console.WriteLine("muc luong : ");
+            Console.Write("Nhap muc luong : ");
             this.mucluong = double.Parse(Console.ReadLine());
         }
 
@@ -30,6 +30,12 @@ namespace baitapcsharpqlnv
         public double phuCap()
         {
             return (base.thamNiem() >= 2) ? 200000 : 100000; 
+        }
+        public override void Xuat()
+        {
+            base.Xuat();
+            Console.Write("Thuoc : Nhan vien hop dong");
+            Console.WriteLine("Luong : " + this.Luong());
         }
     }
 }
