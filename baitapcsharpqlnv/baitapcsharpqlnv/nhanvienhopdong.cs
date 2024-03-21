@@ -34,9 +34,10 @@ namespace baitapcsharpqlnv
         public override void Xuat()
         {
             base.Xuat();
-            Console.Write("Thuoc : Nhan vien hop dong\n");
-            Console.WriteLine("Phu Cap : " + this.phuCap());
-            Console.WriteLine("Luong : " + this.Luong());
+            Console.Write("**  Thuoc : Nhan vien hop dong\n");
+            Console.WriteLine("** Muc luong : " + this.mucluong);
+            Console.WriteLine("**  Phu Cap : " + this.phuCap());
+            Console.WriteLine("**  Luong : " + this.Luong());
         }
     }
 }

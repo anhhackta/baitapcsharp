@@ -22,7 +22,7 @@ namespace baitapcsharpqlnv
         public override void Nhap()
         {
             base.Nhap();
-            Console.Write("______________________\nNhap he so  luong : ");
+            Console.Write("______________________\nNhap he so luong : ");
             this.hesoluong = double.Parse(Console.ReadLine());
         }
         public double Luong()
@@ -38,9 +38,10 @@ namespace baitapcsharpqlnv
         public override void Xuat()
         {
             base.Xuat();
-            Console.Write("Thuoc : Nhan vien bien che\n");
-            Console.WriteLine("Phu Cap : "+ this.phuCap());
-            Console.WriteLine("Luong : "+ this.Luong());
+            Console.Write("**  Thuoc : Nhan vien bien che\n");
+            Console.WriteLine("**  He So Luong : "+ this.hesoluong);
+            Console.WriteLine("**  Phu Cap : " + this.phuCap());
+            Console.WriteLine("**  Luong : " + this.Luong());
         }
         
     }

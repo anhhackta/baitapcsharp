@@ -30,13 +30,18 @@ namespace baitapcsharpqlnv
             //    dsnv.Add(nv);
 
             NHANVIEN nv = new NHANVIEN();
-            Console.WriteLine("DIEN THONG TIN NHAN VIEN");
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine("ĐIỀN THÔNG TIN NHÂN VIÊN");
             while (true)
             {
-                Console.WriteLine("1 nv bien che\n2 nv hop dong\n0thoat");
+                
+                Console.WriteLine("1 nhân viên biên chế\n2 nhân viên hợp đồng\n0 thoát và in");
                 int choice = int.Parse(Console.ReadLine());
                 if (choice == 0)
+                {
+                    Console.Clear();
                     nv.Xuat();
+                }
                 if (choice == 1)
                 {
                     nv = new nhanvienbienche();
