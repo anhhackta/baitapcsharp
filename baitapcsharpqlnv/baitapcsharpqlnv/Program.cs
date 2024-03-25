@@ -29,31 +29,41 @@ namespace baitapcsharpqlnv
             //    nv.Nhap();
             //    dsnv.Add(nv);
 
-            NHANVIEN nv = new NHANVIEN();
-            Console.OutputEncoding = Encoding.UTF8;
-            Console.WriteLine("ĐIỀN THÔNG TIN NHÂN VIÊN");
-            while (true)
-            {
+            //NHANVIEN nv = new NHANVIEN();
+            //Console.OutputEncoding = Encoding.UTF8;
+            //Console.WriteLine("ĐIỀN THÔNG TIN NHÂN VIÊN");
+            //while (true)
+            //{
                 
-                Console.WriteLine("1 nhân viên biên chế\n2 nhân viên hợp đồng\n0 thoát và in");
-                int choice = int.Parse(Console.ReadLine());
-                if (choice == 0)
-                {
-                    Console.Clear();
-                    nv.Xuat();
-                }
-                if (choice == 1)
-                {
-                    nv = new nhanvienbienche();
+            //    Console.WriteLine("1 nhân viên biên chế\n2 nhân viên hợp đồng\n0 thoát và in");
+            //    int choice = int.Parse(Console.ReadLine());
+            //    if (choice == 0)
+            //    {
+            //        Console.Clear();
+            //        nv.Xuat();
+            //    }
+            //    if (choice == 1)
+            //    {
+            //        nv = new nhanvienbienche();
 
-                }
+            //    }
 
-                if (choice == 2)
-                {
-                    nv = new nhanvienhopdong();
-                }
-                nv.Nhap();
+            //    if (choice == 2)
+            //    {
+            //        nv = new nhanvienhopdong();
+            //    }
+            //    nv.Nhap();
 
+            //}
+
+            DANHSACHNHANVIEN qlnv = new DANHSACHNHANVIEN();
+            char c = 'y';
+            while (c == 'y' || c == 'Y')
+            {
+                qlnv.MeNu();
+                Console.OutputEncoding = Encoding.UTF8;
+                Console.Write("Nhập 'Y' để tiếp tục , hoặc phím bất kì để thoát !");
+                c = Char.Parse(Console.ReadLine());
             }
 
             Console.ReadKey();

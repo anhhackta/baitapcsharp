@@ -8,19 +8,49 @@ namespace baitapcsharpqlnv
 {
     class NHANVIEN
     {
-        
-        protected String manv { set;  get ; }
-        protected String hoten { set; get; }
-        protected DateTime namsinh { set; get; }
-        protected String gioitinh { set; get; }
-        protected String cmnd { set; get; }
-        protected DateTime ngayvaocq { set; get; }
+
+        protected String manv;
+        protected String hoten;
+        protected DateTime namsinh;
+        protected String gioitinh;
+        protected String cmnd;
+        protected DateTime ngayvaocq;
         public const double luongcoban = 1490000;
 
         public NHANVIEN()
         {
             //this.manv = DemMANV();
 
+        }
+        public String Manv
+        {
+            set { this.manv = value; }
+            get { return this.manv; }
+        }
+        public String Hoten
+        {
+            set { this.hoten = value; }
+            get { return this.hoten; }
+        }
+        public String Gioitinh
+        {
+            set { this.gioitinh = value; }
+            get { return this.gioitinh; }
+        }
+        public DateTime Namsinh
+        {
+            set { this.namsinh = value; }
+            get { return this.namsinh; }
+        }
+        public DateTime Ngayvaocq
+        {
+            set { this.ngayvaocq = value; }
+            get { return this.ngayvaocq; }
+        }
+        public String Cmnd
+        {
+            set { this.cmnd = value; }
+            get { return this.cmnd; }
         }
 
         public NHANVIEN(String manv ,String hoten, DateTime namsinh, String gioitinh, String cmnd, DateTime ngayvaocq)

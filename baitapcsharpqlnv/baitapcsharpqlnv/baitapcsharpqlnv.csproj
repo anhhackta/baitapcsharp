@@ -63,6 +63,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="file2403.cs" />
     <Compile Include="filetest2.cs" />
     <Compile Include="NHANVIEN.cs" />
     <Compile Include="nhanvienbienche.cs" />
