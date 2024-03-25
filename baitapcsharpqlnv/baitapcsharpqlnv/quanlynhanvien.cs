@@ -90,47 +90,6 @@ namespace baitapcsharpqlnv
             Console.WriteLine("tong quy luong:" + tongluong);
         }//end tinhTongQuyLuong()
 
-        public void MeNu()
-        {
-            Console.OutputEncoding = Encoding.UTF8;
-            Console.WriteLine("\n\t\t\t\t\t  CHƯƠNG TRÌNH QUẢN LÝ NHÂN VIÊN  C#");
-            Console.WriteLine("\t\t\t\t*************************MENU**************************");
-            Console.WriteLine("\t\t\t\t**  1. Nhập nhân viên                                **");
-            Console.WriteLine("\t\t\t\t**  2. In ra nhân viên                               **");
-            Console.WriteLine("\t\t\t\t**  3. Tìm nhân viên theo Mã nhân viên               **");
-            Console.WriteLine("\t\t\t\t**  4. Xóa nhân viên                                 **");
-            Console.WriteLine("\t\t\t\t**  5. thống kê                                      **");
-            Console.WriteLine("\t\t\t\t**  6. Tổng quỹ lương                                **");           
-            Console.WriteLine("\t\t\t\t**  0. Thoát                                         **");
-            Console.WriteLine("\t\t\t\t*******************************************************");
-
-            int Menuitem = 0;
-            Menuitem = int.Parse(Console.ReadLine());
-
-            switch (Menuitem)
-            {
-                case 1:
-                    Nhap(); Console.Clear(); MeNu();
-                    break;
-                case 2:
-                    Xuat(); Console.ReadKey(); Console.Clear(); MeNu();
-                    break;
-                case 3:
-                    Tim(); Console.ReadKey(); Console.Clear(); MeNu();
-                    break;
-                case 4:
-                    Xoa(); Console.ReadKey(); Console.Clear(); MeNu();
-                    break;
-                case 5:
-                    thongke(); Console.ReadKey(); Console.Clear(); MeNu();
-                    break;
-                case 6:
-                    tinhTongQuyLuong() ; Console.ReadKey(); Console.Clear(); MeNu();
-                    break;
-                case 0: Console.ReadKey(); Console.Clear();return;
-                default: Console.WriteLine("Nhập sai ! vui lòng nhập lại ..."); break;
-
-            }
-        }
+       
     }//end class DANHSACHNHANVIEN
 }
