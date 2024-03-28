@@ -9,12 +9,28 @@ namespace baitapcsharpqlnv
     class nhanvienhopdong : NHANVIEN
     {
 
-        private double mucluong { set; get; }
+        private double mucluong;
+
+        public double Mucluong
+        {
+            set { this.mucluong = value; }
+            get { return this.mucluong; }
+        }
         public nhanvienhopdong() : base() { }
         public nhanvienhopdong(double mucluong, string manv, string hoten, DateTime namsinh, string gioitinh, string cmnd, DateTime ngayvaocq) : base(manv, hoten, namsinh, gioitinh, cmnd, ngayvaocq)
         {
             this.mucluong = mucluong;
         }
+
+        public override double phuCap()
+        {
+            return (base.thamNiem() >= 2) ? (this.mucluong * 0.1 + 200000) : (this.mucluong * 0.1 + 100000);
+        }
+        public override double Luong()
+        {
+            return (this.mucluong + luongcoban) + this.phuCap();
+        }
+        
 
         public override void Nhap()
         {
@@ -23,14 +39,7 @@ namespace baitapcsharpqlnv
             this.mucluong = double.Parse(Console.ReadLine());
         }
 
-        public double Luong()
-        {
-            return this.mucluong + luongcoban + this.phuCap();
-        }
-        public double phuCap()
-        {
-            return (base.thamNiem() >= 2) ? (this.mucluong * 0.1 + 200000) : (this.mucluong * 0.1 + 100000); 
-        }
+        
         public override void Xuat()
         {
             base.Xuat();

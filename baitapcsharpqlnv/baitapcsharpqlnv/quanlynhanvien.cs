@@ -51,7 +51,7 @@ namespace baitapcsharpqlnv
             Console.WriteLine("Mã nhân viên |      Họ Tên    |  Ngày sinh  |    Giới tính |   Số Chứng minh |  Phụ Cấp |  thực lĩnh|");
 
             foreach (NHANVIEN nv in listStaff.Values)
-                Console.WriteLine("{0,2} {1,2} {2,2} {3,2} {4,2}", nv.Manv, nv.Hoten, nv.Namsinh.ToString("dd/MM/yyyy"),nv.Gioitinh,nv.Cmnd);
+                Console.WriteLine("{0,2} {1,2} {2,2} {3,2} {4,2}", nv.Manv, nv.Hoten, nv.Namsinh.ToString("dd/MM/yyyy"),nv.Gioitinh,nv.Cmnd,nv.phuCap(),nv.Luong());
         }//end Xuat()
         public NHANVIEN Tim()
         {

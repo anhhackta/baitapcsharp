@@ -12,46 +12,51 @@ namespace baitapcsharpqlnv
 
         static void MeNu()
         {
-            Console.OutputEncoding = Encoding.UTF8;
-            Console.WriteLine("\n\t\t\t\t\t  CHƯƠNG TRÌNH QUẢN LÝ NHÂN VIÊN  C#");
-            Console.WriteLine("\t\t\t\t*************************MENU**************************");
-            Console.WriteLine("\t\t\t\t**  1. Nhập nhân viên                                **");
-            Console.WriteLine("\t\t\t\t**  2. In ra nhân viên                               **");
-            Console.WriteLine("\t\t\t\t**  3. Tìm nhân viên theo Mã nhân viên               **");
-            Console.WriteLine("\t\t\t\t**  4. Xóa nhân viên                                 **");
-            Console.WriteLine("\t\t\t\t**  5. thống kê                                      **");
-            Console.WriteLine("\t\t\t\t**  6. Tổng quỹ lương                                **");
-            Console.WriteLine("\t\t\t\t**  0. Thoát                                         **");
-            Console.WriteLine("\t\t\t\t*******************************************************");
+            try 
+            { 
+                Console.OutputEncoding = Encoding.UTF8;
+                Console.WriteLine("\n\t\t\t\t\t  CHƯƠNG TRÌNH QUẢN LÝ NHÂN VIÊN  C#");
+                    Console.WriteLine("\t\t\t\t*************************MENU**************************");
+                    Console.WriteLine("\t\t\t\t**  1. Nhập nhân viên                                **");
+                    Console.WriteLine("\t\t\t\t**  2. In ra nhân viên                               **");
+                    Console.WriteLine("\t\t\t\t**  3. Tìm nhân viên theo Mã nhân viên               **");
+                    Console.WriteLine("\t\t\t\t**  4. Xóa nhân viên                                 **");
+                    Console.WriteLine("\t\t\t\t**  5. thống kê                                      **");
+                    Console.WriteLine("\t\t\t\t**  6. Tổng quỹ lương                                **");
+                    Console.WriteLine("\t\t\t\t**  0. Thoát                                         **");
+                    Console.WriteLine("\t\t\t\t*******************************************************");
 
-            int Menuitem = 0;
-            Menuitem = int.Parse(Console.ReadLine());
+                int Menuitem = 0;
+                Menuitem = int.Parse(Console.ReadLine());
 
-            switch (Menuitem)
+                switch (Menuitem)
+                {
+                    case 1:
+                        dsnhanvien.Nhap(); Console.Clear(); MeNu();
+                        break;
+                    case 2:
+                        dsnhanvien.Xuat(); Console.ReadKey(); Console.Clear(); MeNu();
+                        break;
+                    case 3:
+                        dsnhanvien.Tim(); Console.ReadKey(); Console.Clear(); MeNu();
+                        break;
+                    case 4:
+                        dsnhanvien.Xoa(); Console.ReadKey(); Console.Clear(); MeNu();
+                        break;
+                    case 5:
+                        dsnhanvien.thongke(); Console.ReadKey(); Console.Clear(); MeNu();
+                        break;
+                    case 6:
+                        dsnhanvien.tinhTongQuyLuong(); Console.ReadKey(); Console.Clear(); MeNu();
+                        break;
+                    case 0: Console.ReadKey(); Console.Clear(); return;
+                    default: Console.WriteLine("Nhập sai ! vui lòng nhập lại ..."); break;
+                }
+            }catch(Exception ex)
             {
-                case 1:
-                    dsnhanvien.Nhap(); Console.Clear(); MeNu();
-                    break;
-                case 2:
-                    dsnhanvien.Xuat(); Console.ReadKey(); Console.Clear(); MeNu();
-                    break;
-                case 3:
-                    dsnhanvien.Tim(); Console.ReadKey(); Console.Clear(); MeNu();
-                    break;
-                case 4:
-                    dsnhanvien.Xoa(); Console.ReadKey(); Console.Clear(); MeNu();
-                    break;
-                case 5:
-                    dsnhanvien.thongke(); Console.ReadKey(); Console.Clear(); MeNu();
-                    break;
-                case 6:
-                    dsnhanvien.tinhTongQuyLuong(); Console.ReadKey(); Console.Clear(); MeNu();
-                    break;
-                case 0: Console.ReadKey(); Console.Clear(); return;
-                default: Console.WriteLine("Nhập sai ! vui lòng nhập lại ..."); break;
-
+                MeNu();
             }
-        }
+    }
         static void Main(string[] args)
         {
             //List<NHANVIEN> dsnv = new List<NHANVIEN>();
@@ -78,7 +83,7 @@ namespace baitapcsharpqlnv
             //Console.WriteLine("ĐIỀN THÔNG TIN NHÂN VIÊN");
             //while (true)
             //{
-                
+
             //    Console.WriteLine("1 nhân viên biên chế\n2 nhân viên hợp đồng\n0 thoát và in");
             //    int choice = int.Parse(Console.ReadLine());
             //    if (choice == 0)
@@ -102,16 +107,23 @@ namespace baitapcsharpqlnv
 
 
 
-           
-            char c = 'y';
-            while (c == 'y' || c == 'Y')
+            try
             {
-                MeNu();
-                Console.OutputEncoding = Encoding.UTF8;
-                Console.Write("Nhập 'Y' để tiếp tục , hoặc phím bất kì để thoát !");
-                c = Char.Parse(Console.ReadLine());
+                dsnhanvien =  new DANHSACHNHANVIEN();
+                char c = 'y';
+                while (c == 'y' || c == 'Y')
+                {
+                    MeNu();
+                    Console.OutputEncoding = Encoding.UTF8;
+                    Console.Write("Nhập 'Y' để tiếp tục , hoặc phím bất kì để thoát !");
+                    c = Char.Parse(Console.ReadLine());
+                }
             }
+            catch (Exception ex1)
+            {
+                Console.WriteLine(ex1.Message);
 
+            }
             Console.ReadKey();
             
         }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace baitapcsharpqlnv
 {
-    class NHANVIEN
+    abstract class NHANVIEN
     {
 
         protected String manv;
@@ -15,13 +15,12 @@ namespace baitapcsharpqlnv
         protected String gioitinh;
         protected String cmnd;
         protected DateTime ngayvaocq;
+        bool nhapThanhCong = false;
         public const double luongcoban = 1490000;
+        abstract public double Luong();
+        abstract public double phuCap();
 
-        public NHANVIEN()
-        {
-            //this.manv = DemMANV();
-
-        }
+        
         public String Manv
         {
             set { this.manv = value; }
@@ -66,7 +65,16 @@ namespace baitapcsharpqlnv
         //{
         //    return "NV" + demnv++;
         //}
+        public NHANVIEN()
+        {
+            //this.manv = DemMANV();
 
+        }
+        public int thamNiem()
+        {
+            return DateTime.Today.Year - this.ngayvaocq.Year;
+        }
+        string inputNgay;
         public virtual void Nhap()
         {
             Console.WriteLine("\nDIEN THONG TIN NHAN VIEN C#");
@@ -74,14 +82,54 @@ namespace baitapcsharpqlnv
             this.manv = Convert.ToString(Console.ReadLine());
             Console.Write("______________________\nNhap ho va ten :  ");
             this.hoten = Convert.ToString(Console.ReadLine());
-            Console.Write("______________________\nNhap ngay sinh (mm/dd/yyyy)");
-            this.namsinh = DateTime.Parse(Console.ReadLine());
-            Console.Write("______________________\nNhap gioi tinh(Nam/Nu - M/W) :  ");
-            this.gioitinh = Convert.ToString(Console.ReadLine());
+            do
+            {
+                Console.Write("______________________\nNhap ngay sinh (dd/MM/yyyy)");
+                inputNgay = Console.ReadLine();
+                nhapThanhCong = DateTime.TryParseExact(inputNgay, "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out this.namsinh);
+                if (!nhapThanhCong)
+                {
+                    Console.WriteLine("Ngày tháng năm sinh không hợp lệ. Vui lòng nhập lại.");
+                }
+                else if (this.namsinh > DateTime.Now)
+                {
+                    Console.WriteLine("Ngày tháng năm sinh không thể lớn hơn ngày hiện tại. Vui lòng nhập lại.");
+                    nhapThanhCong = false;
+                }
+            } while (!nhapThanhCong);
+            do {
+                Console.Write("______________________\nNhap gioi tinh(Nam/Nu - M/W) :  ");
+                inputNgay = Console.ReadLine();
+                if (inputNgay == "nam" || inputNgay == "nu" || inputNgay == "m" || inputNgay == "w"|| inputNgay == "Nam" || inputNgay == "Nu")
+                {
+                    this.gioitinh = inputNgay;
+                    nhapThanhCong = true;
+                }
+                else
+                {
+                    Console.WriteLine("Giới tính không hợp lệ. Vui lòng nhập lại.");
+                    nhapThanhCong = false ;
+                }
+            } while (!nhapThanhCong);
+
+
             Console.Write("______________________\nNhap CMND :  ");
             this.cmnd = Convert.ToString(Console.ReadLine());
-            Console.Write("______________________\nNhap ngay vao cong ty :  ");
-            this.ngayvaocq = DateTime.Parse(Console.ReadLine());
+            do
+            {
+                Console.Write("______________________\nNhap ngay vao cong ty :  ");
+                inputNgay = Console.ReadLine();
+                nhapThanhCong = DateTime.TryParseExact(inputNgay, "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out this.ngayvaocq);
+                if (!nhapThanhCong)
+                {
+                    Console.WriteLine("Ngày tháng năm sinh không hợp lệ. Vui lòng nhập lại.");
+                }
+                else if (this.ngayvaocq > DateTime.Now)
+                {
+                    Console.WriteLine("Ngày tháng năm sinh không thể lớn hơn ngày hiện tại. Vui lòng nhập lại.");
+                    nhapThanhCong = false;
+                }
+            } while (!nhapThanhCong);
         }
 
         public virtual void Xuat()
@@ -97,10 +145,7 @@ namespace baitapcsharpqlnv
 
         }
 
-        public int thamNiem()
-        {
-            return DateTime.Today.Year - this.ngayvaocq.Year;
-        }
+        
 
 
     }

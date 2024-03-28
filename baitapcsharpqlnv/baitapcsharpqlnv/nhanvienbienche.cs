@@ -19,20 +19,21 @@ namespace baitapcsharpqlnv
         {
             this.hesoluong = hesoluong;
         }
+        
+        public override double Luong()
+        {
+            return (this.hesoluong * luongcoban) + this.phuCap();
+        }
+
+        public override double phuCap()
+        {
+            return (base.thamNiem() >= 10) ? ( luongcoban * 0.1 + 500000) : (luongcoban * 0.1 + 200000);
+        }
         public override void Nhap()
         {
             base.Nhap();
             Console.Write("______________________\nNhap he so luong : ");
             this.hesoluong = double.Parse(Console.ReadLine());
-        }
-        public double Luong()
-        {
-            return (this.hesoluong * luongcoban) + this.phuCap();
-        }
-
-        public double phuCap()
-        {
-            return (base.thamNiem() >= 10) ? ( luongcoban * 0.1 + 500000) : (luongcoban * 0.1 + 200000);
         }
 
         public override void Xuat()
