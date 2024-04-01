@@ -64,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="file2403.cs" />
-    <Compile Include="filetest2.cs" />
+    <Compile Include="docghifile.cs" />
     <Compile Include="NHANVIEN.cs" />
     <Compile Include="nhanvienbienche.cs" />
     <Compile Include="nhanvienhopdong.cs" />

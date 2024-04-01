@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|c:\\users\\dn_hocvien\\desktop\\hoang_ltg\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|solutionrelative:baitapcsharpqlnv\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|solutionrelative:baitapcsharpqlnv\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|c:\\users\\dn_hocvien\\desktop\\hoang_ltg\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\nhanvienhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|solutionrelative:baitapcsharpqlnv\\nhanvienhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\testfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|solutionrelative:baitapcsharpqlnv\\testfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|solutionrelative:baitapcsharpqlnv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|c:\\users\\dn_hocvien\\desktop\\hoang_ltg\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\docghifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|solutionrelative:baitapcsharpqlnv\\docghifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\nhanvienbienche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|solutionrelative:baitapcsharpqlnv\\nhanvienbienche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\nhanvienhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|solutionrelative:baitapcsharpqlnv\\nhanvienhopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|solutionrelative:baitapcsharpqlnv\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\testfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|solutionrelative:baitapcsharpqlnv\\testfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0040CEE8-A324-4ED7-9A37-14CC392422EE}|baitapcsharpqlnv\\baitapcsharpqlnv.csproj|solutionrelative:baitapcsharpqlnv\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "quanlynhanvien.cs",
-              "DocumentMoniker": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\quanlynhanvien.cs",
-              "RelativeDocumentMoniker": "baitapcsharpqlnv\\quanlynhanvien.cs",
-              "ToolTip": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\quanlynhanvien.cs",
-              "RelativeToolTip": "baitapcsharpqlnv\\quanlynhanvien.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T09:24:45.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "nhanvienbienche.cs",
-              "DocumentMoniker": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\nhanvienbienche.cs",
-              "RelativeDocumentMoniker": "baitapcsharpqlnv\\nhanvienbienche.cs",
-              "ToolTip": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\nhanvienbienche.cs",
-              "RelativeToolTip": "baitapcsharpqlnv\\nhanvienbienche.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAmwBYAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T09:24:18.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\Program.cs",
               "RelativeDocumentMoniker": "baitapcsharpqlnv\\Program.cs",
               "ToolTip": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\Program.cs",
               "RelativeToolTip": "baitapcsharpqlnv\\Program.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAuwDYAAAAdAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwHwAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T09:18:31.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "nhanvienhopdong.cs",
               "DocumentMoniker": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\nhanvienhopdong.cs",
               "RelativeDocumentMoniker": "baitapcsharpqlnv\\nhanvienhopdong.cs",
               "ToolTip": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\nhanvienhopdong.cs",
               "RelativeToolTip": "baitapcsharpqlnv\\nhanvienhopdong.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBgAAAAXAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAA5wAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T12:48:54.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NHANVIEN.cs",
-              "DocumentMoniker": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\NHANVIEN.cs",
-              "RelativeDocumentMoniker": "baitapcsharpqlnv\\NHANVIEN.cs",
-              "ToolTip": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\NHANVIEN.cs",
-              "RelativeToolTip": "baitapcsharpqlnv\\NHANVIEN.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAQwG4AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T09:23:54.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "testfile.cs",
               "DocumentMoniker": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\testfile.cs",
               "RelativeDocumentMoniker": "baitapcsharpqlnv\\testfile.cs",
               "ToolTip": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\testfile.cs",
               "RelativeToolTip": "baitapcsharpqlnv\\testfile.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T12:21:43.874Z"
+              "WhenOpened": "2024-03-25T12:21:43.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "quanlynhanvien.cs",
+              "DocumentMoniker": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\quanlynhanvien.cs",
+              "RelativeDocumentMoniker": "baitapcsharpqlnv\\quanlynhanvien.cs",
+              "ToolTip": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\quanlynhanvien.cs",
+              "RelativeToolTip": "baitapcsharpqlnv\\quanlynhanvien.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAAwGUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T09:24:45.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "docghifile.cs",
+              "DocumentMoniker": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\docghifile.cs",
+              "RelativeDocumentMoniker": "baitapcsharpqlnv\\docghifile.cs",
+              "ToolTip": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\docghifile.cs",
+              "RelativeToolTip": "baitapcsharpqlnv\\docghifile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T11:29:41.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "nhanvienbienche.cs",
+              "DocumentMoniker": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\nhanvienbienche.cs",
+              "RelativeDocumentMoniker": "baitapcsharpqlnv\\nhanvienbienche.cs",
+              "ToolTip": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\nhanvienbienche.cs",
+              "RelativeToolTip": "baitapcsharpqlnv\\nhanvienbienche.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T09:24:18.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NHANVIEN.cs",
+              "DocumentMoniker": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\NHANVIEN.cs",
+              "RelativeDocumentMoniker": "baitapcsharpqlnv\\NHANVIEN.cs",
+              "ToolTip": "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\baitapcsharpqlnv\\NHANVIEN.cs",
+              "RelativeToolTip": "baitapcsharpqlnv\\NHANVIEN.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T09:23:54.375Z",
+              "EditorCaption": ""
             }
           ]
         }

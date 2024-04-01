@@ -8,8 +8,12 @@ namespace baitapcsharpqlnv
 {
     class nhanvienbienche : NHANVIEN
     {
-        private double hesoluong { set; get; }
-
+        private double hesoluong;
+        public double Hesoluong
+        {
+            set { this.hesoluong = value; }
+            get { return this.hesoluong; }
+        }
 
         public nhanvienbienche() : base()
         {

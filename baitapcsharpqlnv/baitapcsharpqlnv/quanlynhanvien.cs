@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace baitapcsharpqlnv
 {
-    class DANHSACHNHANVIEN
+    class DANHSACHNHANVIEN : IReadWriteData
     {
         Dictionary<String, NHANVIEN> listStaff;
         public DANHSACHNHANVIEN()
@@ -51,7 +52,7 @@ namespace baitapcsharpqlnv
             Console.WriteLine("Mã nhân viên |      Họ Tên    |  Ngày sinh  |    Giới tính |   Số Chứng minh |  Phụ Cấp |  thực lĩnh|");
 
             foreach (NHANVIEN nv in listStaff.Values)
-                Console.WriteLine("{0,2} {1,2} {2,2} {3,2} {4,2}", nv.Manv, nv.Hoten, nv.Namsinh.ToString("dd/MM/yyyy"),nv.Gioitinh,nv.Cmnd,nv.phuCap(),nv.Luong());
+                Console.WriteLine("{0,2} {1,15} {2,18} {3,22} {4,25} {5,27} {6,30}", nv.Manv, nv.Hoten, nv.Namsinh.ToString("dd/MM/yyyy"),nv.Gioitinh,nv.Cmnd,nv.phuCap(),nv.Luong());
         }//end Xuat()
         public NHANVIEN Tim()
         {
@@ -89,7 +90,66 @@ namespace baitapcsharpqlnv
             }
             Console.WriteLine("tong quy luong:" + tongluong);
         }//end tinhTongQuyLuong()
+        public void ReadFile()
+        {
+            string filename = "nhanvien12.txt";
+            
+            String[] AllLines = File.ReadAllLines(filename);
+            foreach (string line in AllLines)
+            {
+                String[] info = line.Split(',');
+                NHANVIEN nv = null;
+                if (info[0] == "B")
+                {
+                    nv = new nhanvienbienche();
+                    ((nhanvienbienche)nv).Hesoluong = double.Parse(info[7]);
+                }
+                else
+                {
+                    nv = new nhanvienhopdong();
+                    ((nhanvienhopdong)nv).Mucluong = double.Parse(info[7]);
+                }
+                nv.Manv = info[1];
+                nv.Hoten = info[2];
+                nv.Gioitinh = info[3];
+                nv.Namsinh = DateTime.Parse(info[4]);
+                nv.Cmnd = info[5];
+                nv.Ngayvaocq = DateTime.Parse(info[6]);
+                this.listStaff.Add(nv.Manv, nv);
+            }
+        }
 
-       
+
+
+        public void WriteFile()
+        {
+            string file = "C:\\Users\\DN_Hocvien\\Desktop\\Hoang_LTG\\baitapcsharp\\baitapcsharpqlnv\\nhanvien.txt";
+            StreamWriter sr = new StreamWriter(file);
+            string info = null;
+            foreach(NHANVIEN nv in this.listStaff.Values)
+            {
+                double hesoluong_mucluong = 0;
+                if (nv is nhanvienbienche)
+                {
+                    info = "B,";
+                    hesoluong_mucluong = ((nhanvienbienche)nv).Hesoluong;
+                }
+                else if(nv is nhanvienhopdong)
+                {
+                    info = "H,";
+                    hesoluong_mucluong = ((nhanvienhopdong)nv).Mucluong;
+                }
+                info += nv.Manv + ","
+                    + nv.Hoten + ","
+                    + nv.Gioitinh + ","
+                    + nv.Namsinh.ToString("dd/MM/yyyy") + ","
+                    + nv.Cmnd + ","
+                    + nv.Ngayvaocq.ToString("dd/MM/yyyy") + ","
+                    + hesoluong_mucluong;
+                sr.WriteLine(info);
+            }
+            sr.Close();
+        }
+
     }//end class DANHSACHNHANVIEN
 }
